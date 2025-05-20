@@ -12,7 +12,7 @@ env:
   AZURE_CONTAINER_REGISTRY_LOGIN_SERVER: Acrmcps.azurecr.io # Full login server
   AZURE_CONTAINER_APP_ENV: Env-mcp
   # IMAGE_NAME_SLUG will be derived from the repository name, e.g., github-mcp-server
-  TARGET_PORT_FOR_THIS_APP: "3000" # <-- !!! SET THIS PER REPOSITORY !!!
+  TARGET_PORT_FOR_THIS_APP: "8080" # <-- !!! SET THIS PER REPOSITORY !!!
 
 jobs:
   build_and_deploy:
